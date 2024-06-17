@@ -9,7 +9,7 @@ function App() {
     axios.get("http://localhost:3001/posts").then((response) => {
       setListOfPosts(response.data);
     });
-  }, [])
+  }, []);
 
   return <div className="App">
     {listOfPosts.map((value, key) => {

@@ -5,6 +5,8 @@
 - `sudo service mysql status`
 - `sudo systemctl enable mysql`
 
-**React App**
-- Navigate to backend
+**Startup React App**
+- From
 - `npm start`
+
+**React App Tutorial**
